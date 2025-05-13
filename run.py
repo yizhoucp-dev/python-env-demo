@@ -28,8 +28,7 @@ def health():
 
 @app.route('/send_kafka_msg')
 def send_kafka_msg_api():
-    send_kafka_msg()
-    return "ok"
+    return send_kafka_msg()
 
 
 if __name__ == '__main__':
